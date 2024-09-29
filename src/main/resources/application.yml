@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: testKotlin
+  main:
+    banner-mode: off
+    log-startup-info: false
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
